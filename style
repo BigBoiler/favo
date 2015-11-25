@@ -1,0 +1,556 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("simple.fatal-vortex.de") {
+  
+    body {
+    
+    background-image: url("http://localhost/favo/green_bg.gif");
+    margin: 0;
+    padding: 0; 
+    font-family: arial;
+    }
+    
+    table.container table.content td.head {
+        background-image: url("http://localhost/favo/3.jpg");
+        background-repeat: no-repeat;
+        height: 100px;
+        padding-right: 5px;
+        padding-top: 5px;
+        text-align: right;
+        width: 100%;
+    }
+
+    /* GET RID OF TRANS.GIFs */
+    
+   td.line1>img {
+        display: none;
+    }
+
+    /* GET RID OF IFRAME ERROR IN HEADER */
+    
+    table.content>tbody>tr>td> iframe {
+        display: none;
+    }
+    
+    .MAIN {
+        color: white;
+        font-size: 12px;
+    }
+
+    a {
+        color: white;
+    font-family: arial;
+    font-size: 12px;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+    
+    a.LISTSTDTXT {
+        text-decoration: none;
+    }
+    a.LISTSTDTXT:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .ccontent {
+        width: 1000px;
+    }
+    
+    #bgcontainer {
+        border: 0 !important;
+    }
+    
+  td.topmenul1, .pathway, .status, .topmenul2, tr.SUMLISTA5O, #tblsummary10 {
+        background-image: url("http://localhost/favo/black_bg.gif");
+    }
+    
+    table#tblsummary3 > tbody >tr > td, table#tblsummary7 > tbody >tr > td {
+        height: 20px;
+        background-image: url("http://localhost/favo/black_bg.gif");
+    }
+   
+
+    
+    #tblsummary7, table#tblsummary3 {
+        background-color: #000;
+        border-collapse: separate;
+        border-spacing: 0 1px;
+    }
+    
+    #tblsummary3>tbody>tr>td.MAIN, #tblsummary7>tbody>tr>td.MAIN {
+        padding-left: 10px;
+    }
+    
+    #tblsummary3>tbody>tr>td.MAINR, #tblsummary7>tbody>tr>td.MAINR  {
+        text-align: right;
+        padding-right: 10px;
+    }
+    
+    td.LIST2INFO {
+        background-image: none !important;
+        width: 100%;
+        background-color: #b93300 !important;
+        text-align: center;
+    }
+    
+    td.SUMLISTA1I {
+        background-color: #b93300 !important;
+        text-align: center;
+        font-size: 12px;
+        color: #000;
+    }
+    
+    #maxsummary {
+    margin-right: 20px;
+    }
+    
+    td.MAINR img {
+       background-image: url("http://localhost/favo/star.gif");
+       background-repeat: no-repeat;
+        width: 11px;
+        height: 11px;
+        background-size: 100%;
+        outline: 1px solid black;
+
+    }
+    
+
+    
+    table#tblsummary10.SUMLIST {
+        width: 100%;
+    }
+
+    .crelated {
+        background-image: url("http://localhost/favo/black_bg.gif");
+    }
+    
+    td.SUMLISTB {
+        background-image: url("http://localhost/favo/lampe_orange.gif");
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        text-align: center;
+        color: black;
+        background-color: #6D6760;
+        height: 20px;
+    }
+    
+    td.SUMLISTA6O {   /* STATIONIERUNG */
+        background-image: url("http://localhost/favo/lampe_orange.gif");
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        text-align: center;
+        color: black;
+        height: 20px;
+        font-size: 12px;
+        background-color: #9E8F44;
+    }
+    
+    #maxmilitary {
+       position: absolute;
+       top: 10px;
+       width: 480px;
+    }
+    
+    
+    .BLANKTH {
+        color: white;
+        font-size: 12px;
+    }
+
+    .SUMLISTS, .SUMLISTBSTD, .SUMLISTB, .SUMLISTA6OR {
+        color: white;
+        font-size: 12px;
+    }
+    
+
+    #maxsummary {
+       margin-right: 10px;
+       margin-top: 10px;
+    }
+    #topleft, #topright {
+       width: 500px;
+        
+    }
+    
+table.container table.content td.topmenu {
+    background-image: url("http://localhost/favo/2bg.jpg");
+    height: 18px;
+    width: 100%;
+}
+
+#tblsummary3, #tblsummary7 {
+    width: 98%;
+}
+  
+    td.SUMLISTA5O, td.SUMLISTA15O, td.SUMLISTA1O, td.SUMLISTA11O, td.SUMLISTA10O {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    td.SUMLISTA10O{
+        background-color: #4a4a4a;
+    }
+    
+    td.SUMLISTA1O{
+        background-color: grey;
+    }
+    
+    td.SUMLISTSSTD, td.SUMLISTA5OM, td.SUMLISTA15OM, td.SUMLISTA5OR, td.SUMLISTA1OM, td.SUMLISTA11OM, td.SUMLISTA1OR, td.SUMLISTA6OM {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    td.SUMLISTA15OR{
+        font-size: 12px;
+        color: gray;
+    }
+    
+    td.SUMLISTA5O, td.SUMLISTA15O, td.SUMLISTA1O {
+        height: 20px;
+    }
+    
+    table#tblsummary4, table#tblsummary8, table#tblsummary11 {
+        background-image: url("http://localhost/favo/table_top_bar_green.jpg");
+        border-left: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+    
+    #tblsummary10 {
+        border-collapse: separate;
+        border-spacing: 5px 1px;
+    }
+    
+    #tblsummary10 td {
+       margin: 2px;
+    }
+    
+    td.SUMLISTS {
+        background-image: url("http://localhost/favo/lampe_gruen.gif");
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+    background-color: #758a73;
+    color: #000;
+    width: 220px;
+    text-align: center;
+    height: 18px;
+}
+    
+    
+td.SUMLISTA5O {
+    background-color: #af9f3a;   /* transport */
+}
+    
+td.SUMLISTA15O {
+    background-color: #4a4a4a;   /* rueckkehr transport */
+            background-image: url("http://localhost/favo/lampe_orange.gif");
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+}
+    
+    td.SUMLISTA10OM, td.SUMLISTA10OR, td.SUMLISTA11OR {
+        color: #fff;
+        font-size: 12px;
+    }
+    
+.moduletable {
+    color: #fff;
+}
+
+    .box2{
+       font-size: 12px;
+    }
+    
+    td.box3 {
+        color: gray;
+        font-size: 9px;
+    }
+    
+    table.tblresourcebox > td.box > #resourcename1 {
+        background-image: url("http://localhost/favo/.gif");
+    }
+   
+    
+    
+   td.topmenul2 > table > tbody > tr > td:nth-child(1) {
+       background-image: url("http://localhost/favo/overview.png");
+       background-repeat: no-repeat;
+
+   }
+   td.topmenul2 > table > tbody > tr > td:nth-child(1) img {
+       opacity: 0;
+       width: 92px;
+   }
+
+   td.topmenul2 > table > tbody > tr > td:nth-child(2) {
+       background-image: url("http://localhost/favo/universemap.png");
+       background-repeat: no-repeat;
+
+   }
+   td.topmenul2 > table > tbody > tr > td:nth-child(2) img {
+       opacity: 0;
+       width: 120px;
+   } 
+ 
+   td.topmenul2 > table > tbody > tr > td:nth-child(3) {
+    background-image: url("http://localhost/favo/construction.png");
+    background-repeat: no-repeat;
+        width: 138px;
+  }
+    
+   td.topmenul2 > table > tbody > tr > td:nth-child(3) img {
+       opacity: 0;
+       width: 138px;
+   }
+   td.topmenul2 > table > tbody > tr > td:nth-child(4) {
+    background-image: url("http://localhost/favo/research.png");
+    background-repeat: no-repeat;
+        width: 96px;
+  }
+  td.topmenul2 > table > tbody > tr > td:nth-child(4) img {
+       opacity: 0;
+       width: 142px;
+   }
+   #hangar {
+    background-image: url("http://localhost/favo/hangar.png");
+    background-repeat: no-repeat;
+        width: 71px;
+  }
+
+   #research:hover {
+    background-image: url("http://localhost/favo/researchhover.png");
+    background-repeat: no-repeat;
+        width: 96px;
+  }
+       #commando {
+    background-image: url("http://localhost/favo/commando.png");
+    background-repeat: no-repeat;
+        width: 95px;
+  }
+    .topmenul2 > table > tbody > tr > td:nth-child(7) > a > img {
+
+    background-image: url("http://localhost/favo/commando.png");
+    background-repeat: no-repeat;
+    width: 95px;
+}
+    #tblsummary4 > tbody > tr > td:nth-child(3),
+    #tblsummary8 > tbody > tr > td:nth-child(3) {
+        visibility: hidden;
+    }
+
+    /* TOP MENUE */
+    
+    table.menu1 > tbody > tr > td:nth-child(1) {
+       background-image: url("http://localhost/favo/01_my-stats.png");
+       background-repeat: no-repeat;
+       background-size: 75%;
+       width: 90px;
+    }
+    table.menu1 > tbody > tr > td:nth-child(1) img {
+        width: 90px; height: 12px;
+        opacity: 0;
+    }
+
+
+    table.menu1 > tbody > tr > td:nth-child(2) {
+       background-image: url("http://localhost/favo/02_top-scores.png");
+       background-repeat: no-repeat;
+       background-size: 82%;
+    }
+    table.menu1 > tbody > tr > td:nth-child(2) img {
+        width: 112px; height: 12px;
+        opacity: 0;
+    }
+
+    table.menu1 > tbody > tr > td:nth-child(3) {
+       background-image: url("http://localhost/favo/03_community.png");
+       background-repeat: no-repeat;
+       background-size: 80%;
+    }
+    table.menu1 > tbody > tr > td:nth-child(3) img {
+        width: 110px; height: 12px;
+        opacity: 0;
+    } 
+
+    table.menu1 > tbody > tr > td:nth-child(4) {
+       background-image: url("http://localhost/favo/04_messages.png");
+       background-repeat: no-repeat;
+       background-size: 78%;
+    }
+    table.menu1 > tbody > tr > td:nth-child(4) img {
+        width: 105px; height: 12px;
+        opacity: 0;
+    } 
+    
+    table.menu1 > tbody > tr > td:nth-child(5) {
+       background-image: url("http://localhost/favo/05_logout.png");
+       background-repeat: no-repeat;
+       background-size: 56%;
+       width: 100px;
+    }
+    table.menu1 > tbody > tr > td:nth-child(5) img {
+        width: 100px; height: 12px;
+        opacity: 0;
+    }   
+    
+    
+    /* RESOURCEN-BOX */
+    
+    #resourcename1 {
+    
+     background-image: url("http://localhost/favo/resourcename1.gif");
+     background-repeat: no-repeat;
+        background-position: 0% 0%;
+        background-size: 90%;
+     width: 225px;
+     height: 15px;
+    }
+    
+    #resourcebar1 {
+        background-image: url("http://localhost/favo/trans.gif");
+    }
+    
+    
+    
+    /********** GALA UEBERSICHT ***********/
+    
+    
+    table#tblbrowse4 {
+        width: 90%;
+    }
+    
+    tr.LIST2G0V0, tr.LIST2G0V1 {
+        background-image: url("http://localhost/favo/black_bg.gif");
+    }
+    
+    
+    tr.LIST2G0V1 {
+        background-image: url("http://localhost/favo/red_bg.gif");
+    }
+    
+    .LIST2 > tbody > tr > th{
+       background-image: url("http://localhost/favo/2bg.jpg");
+       height: 18px;
+        border-left: 1px solid gray;
+       border-top: 1px solid gray;
+    }
+    
+    .LISTSPACE {
+        height: 5px;
+        background-color: #000;
+        border-top: 2px #343b2a solid;
+        border-bottom: 2px #343b2a solid;
+    }
+    
+    .LIST2 {
+        
+        color: #fff;
+        font-size: 11px;
+    }
+    
+    tr.LIST2G10V0 > td > img, tr.LIST2G0V0 > td > img, tr.LIST2G0V1 >td > img {
+        background-image: url("http://localhost/favo/star.gif");
+        background-repeat: no-repeat;
+        width: 12px;  
+    }
+    tr.LIST2G10V0HOVER > td > img, tr.LIST2G0V0HOVER > td > img, tr.LIST2G0V1HOVER > td > img {
+        background-image: url("http://localhost/favo/star.gif");
+        background-repeat: no-repeat;
+        width: 12px;  
+    }
+    
+    td.LIST2G0V1:nth-child(7) > a:nth-child(1) > img,  td.LIST2G0V1:nth-child(7) > a:nth-child(2) > img,  td.LIST2G0V1:nth-child(7) > a:nth-child(3) > img,  td.LIST2G0V1:nth-child(9) > a:nth-child(2) > img{
+        display: none;
+    }
+    
+    /* ICON FLOTTE-SENDEN */
+    
+    td.LIST2G0V0:nth-child(7) > a:nth-child(1) > img, td.LIST2G10V0:nth-child(7) > a:nth-child(1) > img, td.LIST2G10V1:nth-child(7) > a:nth-child(1) > img {
+        opacity: 0;
+        width: 18px;
+        height: 18px;
+    }
+    td.LIST2G0V0:nth-child(7) > a:nth-child(1),td.LIST2G10V0:nth-child(7) > a:nth-child(1), td.LIST2G10V1:nth-child(7) > a:nth-child(1) {
+       
+        background-image: url("http://localhost/favo/fleet-neu.gif");
+        background-repeat: no-repeat;
+        background-position: 40% 60%;
+        background-size: 20px 20px;
+    }
+    
+    /* ICON SPIONAGE-ZENTRALE */
+    
+    td.LIST2G0V0:nth-child(7) > a:nth-child(2) > img, td.LIST2G10V0:nth-child(7) > a:nth-child(2) > img, td.LIST2G10V1:nth-child(7) > a:nth-child(2) > img {
+        opacity: 0;
+        width: 18px;
+        height: 18px;
+    }
+    td.LIST2G0V0:nth-child(7) > a:nth-child(2),td.LIST2G10V0:nth-child(7) > a:nth-child(2), td.LIST2G10V1:nth-child(7) > a:nth-child(2) {
+       
+        background-image: url("http://localhost/favo/spypool-neu.gif");
+        background-repeat: no-repeat;
+        background-position: 40% 60%;
+        background-size: 12px 12px;
+    }
+     /* ICON SPIONAGE */
+    
+    td.LIST2G0V0:nth-child(7) > a:nth-child(3) > img, td.LIST2G10V0:nth-child(7) > a:nth-child(3) > img, td.LIST2G10V1:nth-child(7) > a:nth-child(3) > img {
+        opacity: 0;
+        width: 18px;
+        height: 18px;
+    }
+    td.LIST2G0V0:nth-child(7) > a:nth-child(3),td.LIST2G10V0:nth-child(7) > a:nth-child(3), td.LIST2G10V1:nth-child(7) > a:nth-child(3) {
+       
+        background-image: url("http://localhost/favo/spy.gif");
+        background-repeat: no-repeat;
+        background-position: 40% 60%;
+        background-size: 24px 24px;
+    }
+   
+    /* ICON DISTANZPUNKT */
+    
+    td.LIST2G0V0:nth-child(9) > a:nth-child(2) > img, td.LIST2G10V0:nth-child(9) > a:nth-child(2) > img, td.LIST2G10V1:nth-child(9) > a:nth-child(2) > img {
+        opacity: 0;
+        width: 18px;
+        height: 18px;
+    }
+    td.LIST2G0V0:nth-child(9) > a:nth-child(2),td.LIST2G10V0:nth-child(9) > a:nth-child(2), td.LIST2G10V1:nth-child(9) > a:nth-child(2) {
+       
+        background-image: url("http://localhost/favo/link.gif");
+        background-repeat: no-repeat;
+        background-position: 40% 200%;
+        background-size: 16px 16px;
+    }
+    
+    /* PROFILE */
+    
+     #tblownerinfo3 {
+        width: 700px;
+    }
+    
+    /* SCORES */
+    
+    #tblscores1 {
+        background-color: #000;
+    }
+    
+    #tblscores1>tbody>tr.LIST2>td {
+        background-image: url("http://localhost/favo/black_bg.gif");
+        height: 20px;
+    }
+    
+    #tblscores1>tbody>tr.LIST2>td.LIST2>a {
+        margin-left: 20px;
+    }
+    
+    #tblscores1>tbody>tr.LIST2>td.LIST2:nth-child(3) {
+        padding-right: 10px;
+    }
+    
+    #tblscores1 {
+        width: 500px;
+    }
+
+}
