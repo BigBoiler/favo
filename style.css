@@ -194,8 +194,9 @@ table.container table.content td.topmenu {
         background-color: #4a4a4a;
     }
     
-    td.SUMLISTA1O{
-        background-color: grey;
+    /* BG ANGRIFF ausgehend */
+    td.SUMLISTA1O {
+        background-color: #a0a0a0;
     }
     
     td.SUMLISTSSTD, td.SUMLISTA5OM, td.SUMLISTA15OM, td.SUMLISTA5OR, td.SUMLISTA1OM, td.SUMLISTA11OM, td.SUMLISTA1OR, td.SUMLISTA6OM {
