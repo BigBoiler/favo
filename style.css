@@ -553,5 +553,27 @@ td.SUMLISTA15O {
     #tblscores1 {
         width: 500px;
     }
+    
+       /* SPIOBERICHTE */
+    
+    table.RPTLISTSTD {
+        color: #fff;
+        font-size: 12px;
+        width: 450px;
+        
+    }
+    
+    table.RPTLISTSTD>tbody>tr>td {
+        padding-left:10px;
+    }
+    
+    td.RPTLIST2 {
+        padding-right: 10px; 
+    }
+    
+    span.class {
+        font-size: 10px;
+        color: #a5a5a5;
+    }
 
 }
